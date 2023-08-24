@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100%;
+    max-width: $max-content-width;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+
+@media (max-width: $big-desktop-width) {
+    .wrapper {
+        max-width: $big-desktop-width;
+        padding: 0 70px;
+    }
+}
+
+@media (max-width: $desktop-width) {
+    .wrapper {
+        max-width: $desktop-width;
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .wrapper {
+        max-width: $mobile-width;
+    }
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
