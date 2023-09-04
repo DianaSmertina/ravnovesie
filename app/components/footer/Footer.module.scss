@@ -1,7 +1,11 @@
+@import "../../styles/constants";
+
 .wrapper {
     padding-top: 70px;
     padding-bottom: 81px;
     position: relative;
+    font-size: 1.6rem;
+    color: $color_secondary-text;
 }
 
 .wrapper::before {
@@ -17,4 +21,26 @@
 
 .socials {
     width: 220px;
+    margin-top: 34px;
+    margin-bottom: 31.5px;
 }
+
+.info {
+    justify-content: space-between;
+    height: 137px;
+    padding-bottom: 18px;
+}
+
+.contacts {
+    gap: 8px;
+}
+
+.contact_icon {
+    margin-right: 10px
+}
+
+.contact_text {
+    height: 20px;
+    padding-top: 2px;
+}
+
