@@ -21,7 +21,7 @@ export default function Header() {
                     <Link href="/">Контакты</Link>
                 </nav>
                 <div className={"flex-row " + styles.info}>
-                    <div>8 (931) 363-46-16</div>
+                    <a href="tel:+79313634616">8 (931) 363-46-16</a>
                     <Image
                         src="/hamburger.png"
                         alt="menu"
